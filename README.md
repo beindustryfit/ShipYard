@@ -1,8 +1,8 @@
-# Campus Connect
+# ShipYard
 
-A small social app for one college: students post, follow, and see a feed.
+A small platform that takes a git push and turns it into a running app.
 
-This folder is a **starter**. Your team copies it once, then does every task in **your own team repository**. Do not push your homework to `beindustryfit/CampusConnect`. Everyone in every college shares that copy. Your work goes to the repo your mentor created for your team.
+This folder is a **starter**. Your team copies it once, then does every task in **your own team repository**. Do not push your homework to `beindustryfit/ShipYard`. Everyone in every college shares that copy. Your work goes to the repo your mentor created for your team.
 
 You do not need to have used Git, Docker, or Python on a project before. Follow the steps in order.
 
@@ -34,8 +34,8 @@ If a command is missing, the install did not finish. Stop and message your mento
 ## 1. Copy the starter onto your laptop
 
 ```bash
-git clone https://github.com/beindustryfit/CampusConnect.git
-cd CampusConnect
+git clone https://github.com/beindustryfit/ShipYard.git
+cd ShipYard
 ```
 
 `git clone` downloads the folder. `cd` means "go into that folder". Every later command is typed **inside** this folder.
@@ -120,7 +120,7 @@ Do not commit directly on `main`.
 
 ## 6. Your first task
 
-Week 1 asks you to add GET /health in `app/main.py`. The app already starts. Hit http://localhost:8080/ and you should see a JSON hint.
+Week 1 asks you to accept a GitHub push webhook in `app/main.py`. A sample push payload is in `fixtures/github_push.json`. The app already answers GET /.
 
 ## If you are stuck
 
