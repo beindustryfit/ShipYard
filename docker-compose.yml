@@ -1,0 +1,12 @@
+services:
+  api:
+    build: .
+    ports:
+      - "8080:8080"
+    environment:
+      WEBHOOK_SECRET: dev-secret-change-me
+  # Week 2 — add Redis when the task asks for a build queue.
+  # redis:
+  #   image: redis:7-alpine
+  #   ports:
+  #     - "6379:6379"
